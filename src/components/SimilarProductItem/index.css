@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.similar-product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 25%;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+.similar-img {
+  height: 300px;
+  width: 100%;
+  border-radius: 10px;
+}
+.title-text {
+  color: #12022f;
+  font-size: 25px;
+  font-weight: 600;
+}
+.brand-text {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 500;
+}
+.price-rating-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.price-text {
+  color: #12022f;
+  font-weight: 500;
+  font-size: 20px;
+}
+.rating-button {
+  background-color: #3b82f6;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #ffffff;
+}
+.star-img {
+  height: 25px;
+  width: 25px;
+  margin-left: 5px;
+}
